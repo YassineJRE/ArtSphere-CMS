@@ -1,0 +1,662 @@
+.discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li .store-wrapper {
+    box-shadow: none;
+}
+
+.discover #dokan-seller-listing-wrap.grid-view .store-content {
+    display: none;
+}
+
+.discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller .store-wrapper .store-header .store-banner {
+    height: 500px;
+    display: grid;
+    place-items: center;
+}
+
+.discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller .store-wrapper .store-header .store-banner img {
+    position: relative;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+
+.discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li {
+    /* display: grid; */
+    /* place-items: center; */
+    float: left;
+}
+
+.discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller.composition-1 {
+    width: 100% !important;
+}
+
+.discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller.composition-2 {
+    width: 50% !important;
+}
+
+.discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller.composition-3 {
+    width: 33.33% !important;
+}
+
+.discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller.composition-6 {
+    width: 33.33% !important;
+}
+
+.discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller.composition-6 .store-wrapper .store-header .store-banner {
+    height: 250px !important;
+}
+
+.discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller.composition-6 .store-wrapper .store-header .store-banner img {
+    position: relative;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.discover .my-profile .my-profile-content.add-file {
+    height: 500px;
+}
+
+.discover .my-profile .my-profile-content.add-file img {
+    max-height: 500px;
+}
+
+.discover #titlebar {
+    margin-bottom: 0px;
+}
+
+
+.discover h1.headline.headline-aligned-to-left,
+.discover h2.headline.headline-aligned-to-left,
+.discover h3.headline.headline-aligned-to-left {
+    padding-bottom: 0px;
+}
+
+.discover h3.headline {
+    margin: 0 0 0px 0 !important;
+}
+
+.discover h3.headline {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.discover .product section h5 {
+    font-size: 16px !important;
+    line-height: 20px;
+}
+
+.discover .slick-dotted.slick-slider.listeo-products-slider {
+    padding-bottom: 0px !important;
+}
+
+.discover .elementor-button {
+    background-color: #404040 !important;
+    font-size: 14px !important;
+    padding: 6px 12px !important;
+}
+
+.discover .elementor-button.outline {
+    background-color: #fff !important;
+    color: #404040 !important;
+    border: #404040 1px solid !important;
+}
+
+.discover .elementor-button.outline:hover {
+    background: #404040 !important;
+    color: #fff !important;
+}
+
+.discover .elementor-button.borderless {
+    border: #fff 0px solid !important;
+}
+
+
+.discover a.comment-written-by {
+    color: #707070 !important;
+    font-weight: 600;
+}
+
+.discover a.comment-written-by:hover {
+    color: #ff6600 !important;
+}
+
+.dokan-seller-wrap .dokan-single-seller .store-wrapper .store-footer {
+    display: block;
+}
+
+.elementor-column.elementor-col-50,
+.elementor-column[data-col="50"] {
+    width: 50%;
+}
+
+/* Mobile Responsive */
+@media (max-width: 991px) {
+    .main-information-buttons {
+        /* padding-left: 0; */
+        /* padding-right: 0; */
+    }
+
+    .add-btn {
+        position: absolute;
+        left: 5%;
+    }
+
+    .remove-btn {
+        position: absolute;
+        left: 25%;
+    }
+
+    .edit-btn {
+        position: absolute;
+        left: 35%;
+    }
+
+    .share-btn {
+        position: absolute;
+        left: 45%;
+    }
+
+    .previous-btn {
+        position: absolute;
+        left: 65%;
+    }
+
+    .next-btn {}
+}
+
+@media (min-width: 992px) {
+    .main-information-buttons {
+        /* padding-right: 0; */
+    }
+}
+
+@media (max-width: 768px) {
+
+    .discover .my-profile .my-profile-content.add-file,
+    .discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller .store-wrapper .store-header .store-banner {
+        height: 300px;
+    }
+
+    .discover .my-profile .my-profile-content.add-file img,
+    .discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller .store-wrapper .store-header .store-banner img {
+        max-height: 300px;
+    }
+
+    .discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller.composition-6 .store-wrapper .store-header .store-banner {
+        height: 150px !important;
+    }
+
+    .discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller.composition-6 .store-wrapper .store-header .store-banner img {
+        max-height: 150px !important;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .discover .my-profile .my-profile-content.add-file,
+    .discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller .store-wrapper .store-header .store-banner {
+        height: 250px;
+    }
+
+    .discover .my-profile .my-profile-content.add-file img,
+    .discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller .store-wrapper .store-header .store-banner img {
+        max-height: 250px;
+    }
+
+    .discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller.composition-6 .store-wrapper .store-header .store-banner {
+        height: 125px !important;
+    }
+
+    .discover #dokan-seller-listing-wrap ul.dokan-seller-wrap li.dokan-single-seller.composition-6 .store-wrapper .store-header .store-banner img {
+        max-height: 125px !important;
+    }
+}
+
+/* End Mobile Responsive */
+
+
+
+/* Download ZIP */
+.advancedoptions {
+    display: inline-block;
+    width: 70%;
+    border: 1px solid black;
+    padding-right: 10%;
+}
+
+.advancedoptionslg {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    padding-right: 10%;
+}
+
+.advancedoptions select,
+.advancedoptionslg select {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.advancedoptions hr,
+.advancedoptionslg hr {
+    margin-left: 10%;
+}
+
+.advancedoptions table,
+.advancedoptionslg table {
+    width: 100%;
+    margin-left: 8%;
+}
+
+.advancedoptions table tr,
+.advancedoptionslg table tr {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.advancedoptions table tr td,
+.advancedoptionslg table tr td {
+    width: 50%;
+    padding-right: 3%;
+}
+
+.advancedoptions table td tr label,
+.advancedoptionslg table tr td label {
+    text-align: center;
+}
+
+form.advancedoptions table tr td input[type="checkbox"],
+form.advancedoptionslg table tr td input[type="checkbox"] {
+    display: inline-block;
+    height: 15%;
+}
+
+.advanced {
+    display: block;
+    text-align: right;
+    padding-right: 19%;
+}
+
+.advancedfr {
+    display: block;
+    text-align: right;
+    padding-right: 22%;
+}
+
+#breadcrumbs {
+    overflow: hidden;
+    white-space: normal;
+    max-width: 100%;
+}
+
+.breadcrumbs-list {
+    white-space: normal;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumb-item {
+    display: inline;
+    margin: 0 8px 0 0;
+}
+
+.breadcrumb-text {
+    color: #888;
+    max-width: 150px;
+}
+
+.breadcrumb-link {
+    color: #888;
+    text-decoration: none;
+    max-width: 150px;
+}
+
+.breadcrumb-dots {
+    color: #888;
+    margin-left: 8px;
+}
+
+
+/* ========================================
+   PAGINATION MODERNE
+   ======================================== */
+.pagination-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.modern-pagination-wrapper {
+    display: flex;
+}
+
+.modern-pagination-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: #f8f9fa;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
+}
+
+.pagination-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.page-btn {
+    color: #666;
+    background: transparent;
+}
+
+.page-btn:hover {
+    background: #e9ecef;
+    color: #333;
+}
+
+.current-btn {
+    background: #333;
+    color: white;
+}
+
+.prev-btn,
+.next-btn {
+    color: #666;
+    padding: 0 8px;
+    font-size: 12px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background: #e9ecef;
+    color: #333;
+}
+
+.pagination-dots {
+    color: #94a3b8;
+    font-weight: bold;
+    padding: 0 4px;
+}
+
+/* Responsive Design pour Mobile */
+@media (max-width: 768px) {
+    .modern-pagination-wrapper {
+        gap: 2px;
+        padding: 2px 4px;
+    }
+
+    .pagination-btn {
+        min-width: 28px;
+        height: 28px;
+        font-size: 12px;
+    }
+}
+
+/* End Download ZIP */
+
+/* CSS pour la page Research */
+.profiles-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) !important;
+    gap: 20px !important;
+    padding: 0 !important;
+    margin-top: 10px;
+}
+
+.fw-carousel-item {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+/* Mobile : 2 colonnes */
+@media (max-width: 768px) {
+    .profiles-grid {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 15px !important;
+        padding: 0 10px !important;
+    }
+
+    /* Ajustements texte mobile */
+    .fw-carousel-item .product section h5 {
+        font-size: 14px !important;
+        line-height: 1.3 !important;
+    }
+
+    .fw-carousel-item .product section span {
+        font-size: 12px !important;
+    }
+
+    .fw-carousel-item .button {
+        font-size: 12px !important;
+        padding: 6px 10px !important;
+    }
+}
+
+/* ========================================
+   CSS UNIVERSEL POUR TOUTES LES LISTES
+   (Exhibits, Collections, Website Groups)
+   ======================================== */
+
+/* Titres tronqués - fonctionne pour tous les h2 dans les cartes */
+.store-data h2,
+.store-footer h2,
+.exhibit-title {
+    /* 2 lignes avec ellipsis natif */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /* Hauteur fixe pour maintenir l'alignement */
+    min-height: 2.4em;
+    line-height: 1.2;
+    max-width: 100%;
+    word-wrap: break-word;
+
+    /* Style du texte normal */
+    color: #333;
+    font-weight: normal;
+
+    /* Petit espace avant les trois points */
+    padding-right: 3px;
+}
+
+/* Hauteur fixe pour les cartes */
+.store-wrapper {
+    min-height: 350px;
+    /* Ajustable selon design */
+    display: flex;
+    flex-direction: column;
+}
+
+.store-content {
+    flex-grow: 1;
+}
+
+/* Suppression de la bordure du store-footer */
+.store-footer {
+    border-top: none !important;
+}
+
+/* Tooltip au survol pour toutes les cartes */
+.store-wrapper[data-full-title]:hover::after,
+.exhibit-card[data-full-title]:hover::after {
+    content: attr(data-full-title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1000;
+    max-width: 300px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+/* ===== RESPONSIVE MOBILE : 2 colonnes ===== */
+@media (max-width: 768px) {
+
+    /* Modifier les classes existantes au lieu de créer une grille */
+    .dokan-single-seller.composition-6 {
+        width: 48% !important;
+        float: left !important;
+        margin-right: 4% !important;
+        margin-bottom: 20px !important;
+    }
+
+    .dokan-single-seller.composition-6:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+
+    .dokan-single-seller.composition-6:nth-child(2n+1) {
+        clear: left !important;
+    }
+
+    /* Ajuster la hauteur des cartes sur mobile */
+    .store-wrapper {
+        min-height: 280px !important;
+    }
+
+    /* Titres plus petits sur mobile */
+    .store-data h2,
+    .store-footer h2,
+    .exhibit-title {
+        font-size: 14px !important;
+        min-height: 2em !important;
+    }
+
+    /* S'assurer que le conteneur utilise le bon clearfix */
+    .dokan-seller-wrap {
+        width: 100% !important;
+    }
+}
+
+/* Pour très petits écrans */
+@media (max-width: 480px) {
+    .dokan-single-seller.composition-6 {
+        width: 48% !important;
+        margin-bottom: 15px !important;
+    }
+
+    .store-wrapper {
+        min-height: 250px !important;
+    }
+
+    .store-data h2,
+    .store-footer h2,
+    .exhibit-title {
+        font-size: 13px !important;
+    }
+}
+
+
+/* Styles pour le bouton de donation */
+.donation-section {
+    text-align: center;
+}
+
+.donation-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.donation-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.donation-button {
+    background: linear-gradient(135deg, #ff6600, #ff8533);
+    color: white !important;
+    padding: 15px 30px;
+    border-radius: 25px;
+    text-decoration: none !important;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 4px 15px rgba(255, 102, 0, 0.3);
+    transition: all 0.3s ease;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.donation-button:hover {
+    background: linear-gradient(135deg, #e55a00, #ff6600);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 102, 0, 0.4);
+    color: white !important;
+}
+
+.donation-button:active {
+    transform: translateY(0);
+}
+
+.donation-button i {
+    font-size: 14px;
+    color: #ffb3b3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .donation-button {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .donation-text {
+        font-size: 14px;
+    }
+}
+
+/* Add the overlay indicator for multiple media items */
+.store-banner .overlay-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.store-banner .overlay-indicator img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .store-banner .overlay-indicator {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .store-banner:hover .overlay-indicator {
+        opacity: 1;
+    }
+}

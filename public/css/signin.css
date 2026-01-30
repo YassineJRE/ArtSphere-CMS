@@ -1,0 +1,345 @@
+/* ------------------------------------------------------------------- */
+/* Sign in dialog
+---------------------------------------------------------------------- */
+#sign-in-dialog {
+    color: #707070;
+}
+
+#sign-in-dialog .pane {
+    display: none;
+}
+#sign-in-dialog .pane h3 {
+    font-size: 22px !important;
+    line-height: 26px !important;
+    color: rgb(34, 34, 34) !important;
+    font-weight: 600 !important;
+    margin-top: 8px !important;
+    margin-bottom: 24px !important;
+}
+
+/* ------------------------------------------------------------------- */
+/* Form
+---------------------------------------------------------------------- */
+#sign-in-dialog .auth-form .help-text {
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+    color: rgb(34, 34, 34) !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    font-weight: 400 !important;
+}
+
+#sign-in-dialog .auth-form .help-text a {
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-style: inherit !important;
+    font-variant: inherit !important;
+    line-height: inherit !important;
+    color: rgb(34, 34, 34) !important;
+    text-decoration: underline !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+    outline: none !important;
+}
+
+/* ------------------------------------------------------------------- */
+/* Form Email
+---------------------------------------------------------------------- */
+#sign-in-dialog .input-email {
+    position: relative;
+}
+#sign-in-dialog .input-email input {
+    margin: 0px;
+    padding: 8px 22px;
+    padding-top: 20px;
+    border: none !important;
+    color: rgb(34, 34, 34) !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 8px !important;
+    box-shadow: rgb(176 176 176) 0px 0px 0px 1px inset !important;
+}
+#sign-in-dialog .input-email input:focus,#sign-in-dialog .input-email input:hover {
+    box-shadow: rgb(34 34 34) 0px 0px 0px 2px inset !important;
+    outline: none;
+}
+#sign-in-dialog .input-email input:invalid {
+    box-shadow: #d34c4c 0px 0px 0px 2px inset !important;
+    animation-name: shake3;
+    animation-duration: .4s;
+    position: relative;
+}
+#sign-in-dialog .input-email input:invalid+span {
+    color: #d34c4c !important;
+    font-weight: bold !important;
+}
+#sign-in-dialog .input-email span {
+    pointer-events: none;
+    opacity: 0.5;
+    position: absolute;
+    padding-left: 20px;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: text;
+}
+#sign-in-dialog .input-email input:focus+span,
+#sign-in-dialog .input-email input:not(:placeholder-shown)+span {
+    top: 7px;
+    -webkit-transform: scale(0.7) translateY(-10%);
+    transform: scale(0.7) translateY(-10%);
+}
+#sign-in-dialog .input-email input,
+#sign-in-dialog .input-email span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+/* ------------------------------------------------------------------- */
+/* Form Phone
+---------------------------------------------------------------------- */
+.input-phone .iti--allow-dropdown {
+    position: relative;
+    color: rgb(34, 34, 34) !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 8px 8px 8px 8px !important;
+    box-shadow: rgb(176 176 176) 0px 0px 0px 1px inset !important;
+    width: 100%;
+}
+#sign-in-dialog .input-phone input {
+    margin: 0px;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+#sign-in-dialog .input-phone input:focus,
+#sign-in-dialog .input-phone input:hover {
+    border-radius: 8px 8px 8px 8px !important;
+    box-shadow: rgb(34 34 34) 0px 0px 0px 2px inset !important;
+}
+#sign-in-dialog .input-phone input:invalid,
+#sign-in-dialog .input-phone input.error {
+    border-radius: 8px 8px 8px 8px !important;
+    box-shadow: #d34c4c 0px 0px 0px 2px inset !important;
+    animation-name: shake3;
+    animation-duration: .4s;
+    position: relative;
+}
+
+/* ------------------------------------------------------------------- */
+/* Form Birthday
+---------------------------------------------------------------------- */
+#sign-in-dialog .input-birthday input {
+    margin: 0px;
+    border: none !important;
+    background: transparent !important;
+    color: rgb(34, 34, 34) !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 8px 8px 8px 8px !important;
+    box-shadow: rgb(176 176 176) 0px 0px 0px 1px inset !important;
+    width: 100%;
+}
+#sign-in-dialog .input-birthday input:focus,
+#sign-in-dialog .input-birthday input:hover {
+    border-radius: 8px 8px 8px 8px !important;
+    box-shadow: rgb(34 34 34) 0px 0px 0px 2px inset !important;
+}
+#sign-in-dialog .input-birthday input:invalid,
+#sign-in-dialog .input-birthday input.error {
+    border-radius: 8px 8px 8px 8px !important;
+    box-shadow: #d34c4c 0px 0px 0px 2px inset !important;
+    animation-name: shake3;
+    animation-duration: .4s;
+    position: relative;
+}
+
+/* ------------------------------------------------------------------- */
+/* Button "Attachment"
+---------------------------------------------------------------------- */
+#sign-in-dialog .auth-form-button-attachment {
+    cursor: pointer !important;
+    display: inline-block !important;
+    margin: 16px 0px 0px 0px !important;
+    text-decoration: none !important;
+    touch-action: manipulation !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    padding: 14px 24px !important;
+    border: none !important;
+    color: #666;
+    background-color: #e4e4e4;
+    width: 100% !important;
+}
+
+#sign-in-dialog .auth-form-button-attachment i {
+	float: right;
+	display: inline-block;
+}
+
+/* ------------------------------------------------------------------- */
+/* Button "Do later"
+---------------------------------------------------------------------- */
+#sign-in-dialog .auth-form-button-dolater {
+    cursor: pointer !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    touch-action: manipulation !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 600 !important;
+    outline: none !important;
+    color: #666;
+    width: 100% !important;
+    margin-bottom: 16px;
+}
+
+#sign-in-dialog .auth-form-button-dolater i {
+	float: right;
+	display: inline-block;
+}
+
+/* ------------------------------------------------------------------- */
+/* Button "Continue"
+---------------------------------------------------------------------- */
+#sign-in-dialog .auth-form-button-continue {
+    cursor: pointer !important;
+    display: inline-block !important;
+    margin: 16px 0px 0px 0px !important;
+    position: relative !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    touch-action: manipulation !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    padding: 14px 24px !important;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s !important;
+    -webkit-tap-highlight-color: transparent !important;
+    border: none !important;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%) !important;
+    color: rgb(255, 255, 255) !important;
+    width: 100% !important;
+}
+
+/* ------------------------------------------------------------------- */
+/* Button "Previous"
+---------------------------------------------------------------------- */
+#sign-in-dialog .auth-form-button-previous {
+    display: inline-block !important;
+    margin-bottom: 10px !important;
+    cursor: pointer !important;
+    border-radius: 8px !important;
+    padding: 14px 20px 6px 20px !important;
+    color: #666;
+    background-color: #e4e4e4;
+}
+#sign-in-dialog .auth-form-button-previous:hover {
+    color: white;
+    background-color: #64bc36;
+}
+#sign-in-dialog .auth-form-button-previous .sl {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------------------- */
+/* Separator "OR"
+---------------------------------------------------------------------- */
+#sign-in-dialog .separator {
+    overflow: hidden !important;
+    text-align: center !important;
+    width: 100% !important;
+    margin-top: 20px !important;
+    margin-bottom: 16px !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+}
+#sign-in-dialog .separator span {
+    padding-bottom: 16px !important;
+    padding-top: 16px !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+#sign-in-dialog .separator span {
+    position: relative !important;
+    padding: 16px !important;
+}
+#sign-in-dialog .separator span::before {
+    border-bottom-width: 1px !important;
+    border-bottom-color: #e4e4e4 !important;
+}
+#sign-in-dialog .separator span::before {
+    content: "" !important;
+    position: absolute !important;
+    border-bottom: 1px solid rgb(228, 228, 228) !important;
+    top: 50% !important;
+    right: 100% !important;
+    width: 5000px !important;
+}
+#sign-in-dialog .separator span::after {
+    border-bottom-width: 1px !important;
+    border-bottom-color: #e4e4e4 !important;
+}
+#sign-in-dialog .separator span::after {
+    content: "" !important;
+    position: absolute !important;
+    border-bottom: 1px solid rgb(228, 228, 228) !important;
+    top: 50% !important;
+    left: 100% !important;
+    width: 5000px !important;
+}
+
+/* ------------------------------------------------------------------- */
+/* Auth Button
+---------------------------------------------------------------------- */
+#sign-in-dialog .auth-button {
+    width: 100% !important;
+    margin-bottom: 16px !important;
+}
+#sign-in-dialog .auth-button button {
+    cursor: pointer !important;
+    display: inline-block !important;
+    margin: 0px !important;
+    position: relative !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    touch-action: manipulation !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    letter-spacing: normal !important;
+    color: rgb(72, 72, 72) !important;
+    padding: 10px 12px !important;
+    font-weight: 800 !important;
+    border-radius: 8px !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: rgb(176, 176, 176) !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    min-width: 71.1935px !important;
+    width: 100% !important;
+}
+#sign-in-dialog .auth-button button:hover {
+    border-color: rgb(59, 59, 59) !important;
+}
+#sign-in-dialog .auth-button button div {
+    -webkit-box-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+}
+#sign-in-dialog .auth-button button div span {
+    flex: 1 1 0% !important;
+}
