@@ -1,37 +1,32 @@
-# ArtSphere-CMS 🎨
+# ArtSphere CMS
 
-Une application web robuste basée sur **Laravel** pour la gestion complète de contenus artistiques, d'expositions et de collections. Ce projet utilise une architecture MVC stricte et intègre des fonctionnalités avancées de gestion des droits et de médias.
+ArtSphere is a dedicated Content Management System (CMS) built with **Laravel**, designed to manage art collections, exhibitions, and artist portfolios. This project demonstrates a scalable MVC architecture with advanced permission management.
 
-## 🌟 Fonctionnalités Principales
+## Project Overview
 
-### Gestion de Contenu
-* **Artworks & Collections** : Gestion détaillée des œuvres et regroupement en collections.
-* **Exhibits** : Organisation et suivi des expositions virtuelles ou physiques.
-* **Documents & Media** : Centralisation des contenus multimédias associés aux œuvres.
+This application serves as a centralized platform for galleries or art organizations. It allows for the complete lifecycle management of digital assets, from ingestion to exhibition planning, while ensuring data integrity and secure access control.
 
-### Gestion des Utilisateurs & Sécurité
-* **Système de Rôles** : Distinction claire entre les types d'utilisateurs (Member, Artist).
-* **Permissions Avancées** : Système granulaire (Privilege, PrivilegeAdmin, PrivilegeAuthentication).
-* **Profils** : Gestion des profils utilisateurs avec différents types (ProfileType).
+## Key Features
 
-### Outils & Interactions
-* **Notifications** : Système d'invitations et d'alertes par email.
-* **Activité** : Journalisation des actions (ActivityLog) pour le suivi administratif.
-* **Social** : Système de commentaires et statuts vérifiés (VerifiedStatus).
+### Content Management
+* **Artworks & Collections:** Comprehensive management of art pieces with categorization capabilities.
+* **Exhibits:** Organization of virtual or physical exhibitions.
+* **Media Handling:** Support for associated documents and media files.
 
-## 🔧 Architecture Technique
+### Access Control & Security
+* **Role-Based Access Control (RBAC):** Distinct roles for Administrators, Members, and Artists.
+* **Granular Permissions:** Custom implementation of privileges (Privilege, PrivilegeAdmin) to control access at a fine level.
+* **Authentication:** Secure login and profile management with verification status.
 
-Ce projet démontre une maîtrise du framework Laravel et des bonnes pratiques de développement :
+### Technical Architecture
+The project follows strict software engineering standards:
+* **MVC Pattern:** Clear separation of logic between Controllers, Models, Services, and Repositories.
+* **Event-Driven Design:** Usage of Events and Listeners to handle side effects (notifications, logging) without coupling code.
+* **Data Validation:** Use of Form Requests to ensure data integrity before processing.
+* **Activity Logging:** Built-in system to track administrative actions.
 
-* **Pattern MVC** : Séparation stricte (Controllers, Models, Services, Repositories).
-* **API & Web** : Routes distinctes pour l'interface web et les accès API.
-* **Événementiel** : Utilisation d'Events & Listeners pour découpler la logique métier.
-* **Qualité du Code** :
-    * Validation des données via *Form Requests*.
-    * Tests unitaires et fonctionnels intégrés.
+## Installation
 
-## 🚀 Installation
-
-1. **Cloner le projet**
-   ```bash
-   git clone [https://github.com/VOTRE-NOM/ArtSphere-CMS.git](https://github.com/VOTRE-NOM/ArtSphere-CMS.git)
+**1. Clone the repository**
+```bash
+git clone [https://github.com/YassineJRE/ArtSphere-CMS.git](https://github.com/YassineJRE/ArtSphere-CMS.git)
